@@ -12,8 +12,8 @@ import { BeatLoader } from "react-spinners";
 export const Contact = () => {
   const [loading, setLoading] = useState(false);
   const [apiMessage, setApiMessage] = useState({
-    message: "success",
-    type: "success",
+    message: "",
+    type: "",
   });
   const [isActive, setIsActive] = useState(false);
 
