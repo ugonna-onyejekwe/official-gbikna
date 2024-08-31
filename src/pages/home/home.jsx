@@ -1,12 +1,10 @@
 import "./home.scss";
-import about_image from "../../assets/about.jpg";
 import { ImCheckmark } from "react-icons/im";
-import finance_image from "../../assets/finance.jpg";
+import finance_image from "../../assets/Dashboard.jpg";
 import business_image from "../../assets/business.jpg";
 import infrast_image from "../../assets/management.jpg";
 
 import pci from "../../assets/pci-logo.png";
-import hero from "../../assets/hero.svg";
 
 export const Home = () => {
   return (
@@ -36,7 +34,7 @@ export const Home = () => {
             </div>
 
             <div className="img_con">
-              <img src={hero} alt="hero image" />
+              {/* <img src={hero} alt="hero image" /> */}
             </div>
           </div>
         </div>

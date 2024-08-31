@@ -43,13 +43,14 @@ export const Footer = () => {
                 <span>
                   <FaLocationDot />
                 </span>
-                Lagos, Nigeria
+                800 N King Street Suite 304 2236 Wilmington, DE 19801 United
+                States
               </p>
               <p>
                 <span>
                   <FaPhoneAlt />
                 </span>
-                09021474294
+                +1754-254-2430, +234-902-147-4294
               </p>
               <p>
                 <span>
