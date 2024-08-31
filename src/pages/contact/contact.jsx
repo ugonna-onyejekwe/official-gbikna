@@ -117,7 +117,7 @@ export const Contact = () => {
 
                 <div className="txt">
                   <h4>phone Number</h4>
-                  <p>+1754-254-2430, +234-902-147-4294</p>
+                  <p>+1-754-254-2430, +234-902-147-4294</p>
                 </div>
               </div>
 

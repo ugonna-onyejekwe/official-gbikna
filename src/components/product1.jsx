@@ -10,19 +10,17 @@ export const Product1 = () => {
         <h3>megaclus</h3>
         <div className="txt">
           <p>
-            Welcome to MEGACLUS, where the world unites in one vibrant social
-            space! MEGACLUS connects friends, family, and new acquaintances from
-            around the globe, all while offering a bustling marketplace of goods
-            and services.
+            MEGACLUS, social media platform for everything commerce. Ever
+            wondered what social media plus commerce would look like? Signup and
+            find out.
           </p>
 
           <p>
-            From discovering unique local treasures to connecting with your
-            favorite global brands, every interaction on MEGACLUS is an
-            opportunity to explore and connect.
+            Link your Olivia stores website, shopify websites, etc Convert
+            chats into sales  Etc
           </p>
         </div>
-        <ul className="list_con">
+        {/* <ul className="list_con">
           <li>
             <span className="check_mark">
               <ImCheckmark />
@@ -47,7 +45,7 @@ export const Product1 = () => {
             </span>
             secure Payment Integration
           </li>
-        </ul>
+        </ul> */}
 
         <div className="btn">
           <Link to="">

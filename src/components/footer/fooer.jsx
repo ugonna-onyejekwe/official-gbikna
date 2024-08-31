@@ -10,32 +10,7 @@ export const Footer = () => {
       <div className="section1">
         <div className="container">
           {/* box1 */}
-          <div className="box">
-            <h3>products</h3>
-
-            <div className="con">
-              <Link to="/" target="_blank">
-                olivia
-              </Link>
-              <Link to="/" target="_blank">
-                megaclus
-              </Link>
-            </div>
-          </div>
-
-          {/* box2 */}
-          <div className="box">
-            <h3>quick links</h3>
-
-            <div className="con">
-              <Link to="/">home</Link>
-              <Link to="/products">products</Link>
-              <Link to="/contact">contact us</Link>
-            </div>
-          </div>
-
-          {/* box3 */}
-          <div className="box">
+          <div className="box contact">
             <h3>contact</h3>
 
             <div className="con">
@@ -50,7 +25,7 @@ export const Footer = () => {
                 <span>
                   <FaPhoneAlt />
                 </span>
-                +1754-254-2430, +234-902-147-4294
+                +1-754-254-2430, +234-902-147-4294
               </p>
               <p>
                 <span>
@@ -58,6 +33,30 @@ export const Footer = () => {
                 </span>
                 info@gbikna.com
               </p>
+            </div>
+          </div>
+          {/* box2 */}
+          <div className="box">
+            <h3>products</h3>
+
+            <div className="con">
+              <Link to="/" target="_blank">
+                olivia
+              </Link>
+              <Link to="/" target="_blank">
+                megaclus
+              </Link>
+            </div>
+          </div>
+
+          {/* box3 */}
+          <div className="box">
+            <h3>quick links</h3>
+
+            <div className="con">
+              <Link to="/">home</Link>
+              <Link to="/products">products</Link>
+              <Link to="/contact">contact us</Link>
             </div>
           </div>
 
@@ -83,7 +82,7 @@ export const Footer = () => {
       </div>
 
       <div className="section2">
-        <p>&copy; Copyrights. Gbikna. 2024</p>
+        <p>&copy; Copyrights. Gbikna. 2020</p>
       </div>
     </footer>
   );

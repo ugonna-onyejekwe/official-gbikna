@@ -10,11 +10,13 @@ export const Product2 = () => {
         <h3>olivia</h3>
         <div className="txt">
           <p>
-            Olivia is an e-commerce solution designed and built to help business
-            attain greater heights. With a brilliant suite of tools and
-            services, Olivia empowers entrepreneurs and businesses to reach
+            Olivia is a platform built for all types of businesses to attain
+            profittablity and exposure easily. Similar to Shopify, business
+            owners can create and design their business website easily. It is
+            easy to use. Olivia empowers entrepreneurs and businesses to reach
             their full potential, giving the flexibility and scalability you
-            need to thrive in the business world.
+            need to thrive in the business world. Supports goods and services,
+            bookable services, digital products, etc
           </p>
         </div>
         <ul className="list_con">
@@ -22,7 +24,7 @@ export const Product2 = () => {
             <span className="check_mark">
               <ImCheckmark />
             </span>
-            Comprehensive Retail Solutions
+            Comprehensive Order Management and Fulfillment Solutions
           </li>
           <li>
             <span className="check_mark">
@@ -34,7 +36,14 @@ export const Product2 = () => {
             <span className="check_mark">
               <ImCheckmark />
             </span>
-            Enhanced Agency Banking
+            Embedded Pos
+          </li>
+
+          <li>
+            <span className="check_mark">
+              <ImCheckmark />
+            </span>
+            Robust Payment Option
           </li>
 
           <li>
@@ -48,7 +57,7 @@ export const Product2 = () => {
             <span className="check_mark">
               <ImCheckmark />
             </span>
-            Fully Customizable Website Templates
+            Available in over 100+ countries
           </li>
         </ul>
 

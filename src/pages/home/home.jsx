@@ -5,6 +5,15 @@ import business_image from "../../assets/business.jpg";
 import infrast_image from "../../assets/management.jpg";
 
 import pci from "../../assets/pci-logo.png";
+import { Link } from "react-router-dom";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/autoplay";
 
 export const Home = () => {
   return (
@@ -23,12 +32,16 @@ export const Home = () => {
               </p>
 
               <div className="btns" data-aos="fade-up">
-                <button className="trans_btn">contact us</button>
-                <button className="trans_btn">our service</button>
+                <Link to="/contact">
+                  <button className="trans_btn">contact us</button>
+                </Link>
+
+                <Link to="/products">
+                  <button className="trans_btn">our products</button>
+                </Link>
               </div>
 
               <div className="license">
-                <p>PCIDSS compliant</p>
                 <img src={pci} alt="pci lpgo" />
               </div>
             </div>
@@ -100,7 +113,25 @@ export const Home = () => {
             </div>
 
             <div className="img_con" data-aos="fade-right">
-              <img src={finance_image} alt="image" />
+              <Swiper
+                spaceBetween={20}
+                slidesPerView={1}
+                modules={[Autoplay]}
+                autoplay={{
+                  delay: 3000,
+                }}
+                speed={800}
+              >
+                <SwiperSlide className="img">
+                  <img src={finance_image} alt="image" />
+                </SwiperSlide>
+                <SwiperSlide className="img">
+                  <img src={business_image} alt="image" />
+                </SwiperSlide>
+                <SwiperSlide className="img">
+                  <img src={infrast_image} alt="image" />
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
         </section>
@@ -155,7 +186,25 @@ export const Home = () => {
             </div>
 
             <div className="img_con" data-aos="fade-left">
-              <img src={business_image} alt="image" />
+              <Swiper
+                spaceBetween={20}
+                slidesPerView={1}
+                modules={[Autoplay]}
+                autoplay={{
+                  delay: 3000,
+                }}
+                speed={800}
+              >
+                <SwiperSlide className="img">
+                  <img src={finance_image} alt="image" />
+                </SwiperSlide>
+                <SwiperSlide className="img">
+                  <img src={business_image} alt="image" />
+                </SwiperSlide>
+                <SwiperSlide className="img">
+                  <img src={infrast_image} alt="image" />
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
         </section>
@@ -197,7 +246,25 @@ export const Home = () => {
             </div>
 
             <div className="img_con" data-aos="fade-right">
-              <img src={infrast_image} alt="image" />
+              <Swiper
+                spaceBetween={20}
+                slidesPerView={1}
+                modules={[Autoplay]}
+                autoplay={{
+                  delay: 3000,
+                }}
+                speed={800}
+              >
+                <SwiperSlide className="img">
+                  <img src={finance_image} alt="image" />
+                </SwiperSlide>
+                <SwiperSlide className="img">
+                  <img src={business_image} alt="image" />
+                </SwiperSlide>
+                <SwiperSlide className="img">
+                  <img src={infrast_image} alt="image" />
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
         </section>
