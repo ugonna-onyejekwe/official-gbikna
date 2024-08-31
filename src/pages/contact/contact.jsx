@@ -222,7 +222,7 @@ export const Contact = () => {
               <div className="btn">
                 <button>
                   {loading ? (
-                    <BeatLoader color="#fff" size={10} />
+                    <BeatLoader color="#fff" size={6} />
                   ) : (
                     "Send message"
                   )}
