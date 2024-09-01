@@ -1,6 +1,6 @@
 import { RiExternalLinkFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import olivia_img from "../assets/megaclus.png";
+import core from "../assets/emp1.jpg";
 
 export const Product4 = () => {
   return (
@@ -27,7 +27,7 @@ export const Product4 = () => {
       </div>
 
       <div className="img" data-aos="fade-right">
-        <img src={olivia_img} alt="megaclus" />
+        <img src={core} alt="megaclus" />
       </div>
     </div>
   );
