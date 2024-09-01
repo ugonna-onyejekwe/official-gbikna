@@ -1,4 +1,3 @@
-import { ImCheckmark } from "react-icons/im";
 import { RiExternalLinkFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import megaclus_img from "../assets/megaclus.png";
@@ -20,32 +19,6 @@ export const Product1 = () => {
             chats into sales  Etc
           </p>
         </div>
-        {/* <ul className="list_con">
-          <li>
-            <span className="check_mark">
-              <ImCheckmark />
-            </span>
-            social networking
-          </li>
-          <li>
-            <span className="check_mark">
-              <ImCheckmark />
-            </span>
-            Live Shopping Experiences
-          </li>
-          <li>
-            <span className="check_mark">
-              <ImCheckmark />
-            </span>
-            Interactive Live Shopping
-          </li>
-          <li>
-            <span className="check_mark">
-              <ImCheckmark />
-            </span>
-            secure Payment Integration
-          </li>
-        </ul> */}
 
         <div className="btn">
           <Link to="">

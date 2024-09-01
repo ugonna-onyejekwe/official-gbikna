@@ -1,4 +1,3 @@
-import { ImCheckmark } from "react-icons/im";
 import { RiExternalLinkFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import olivia_img from "../assets/megaclus.png";
