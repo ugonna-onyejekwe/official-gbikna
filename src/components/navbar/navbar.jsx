@@ -2,14 +2,20 @@ import "./navbar.scss";
 import { HiOutlineMenu } from "react-icons/hi";
 import { IoCloseSharp } from "react-icons/io5";
 import logo from "../../assets/logo.png";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { useState } from "react";
 
 export const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
-
+  const [activateNav, setActivateNav] = useState(false);
+  const { pathname } = useLocation();
+  window.addEventListener("scroll", () => {
+    window.scrollY > 10 ? setActivateNav(true) : setActivateNav(false);
+  });
   return (
-    <nav>
+    <nav
+      className={activateNav || isActive || pathname !== "/" ? "active" : ""}
+    >
       <div className="container">
         <Link className="logo" to="/">
           <div>

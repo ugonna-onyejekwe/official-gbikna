@@ -1,8 +1,21 @@
 import "./home.scss";
 import { ImCheckmark } from "react-icons/im";
-import finance_image from "../../assets/Dashboard.jpg";
-import business_image from "../../assets/business.jpg";
-import infrast_image from "../../assets/management.jpg";
+
+import hero_img from "../../assets/hero.png";
+
+import finance1 from "../../assets/finance1.png";
+import finance2 from "../../assets/finance2.png";
+import finance3 from "../../assets/finance3.png";
+import finance4 from "../../assets/finance4.png";
+
+import bus1 from "../../assets/bus1.png";
+import bus2 from "../../assets/bus2.png";
+import bus3 from "../../assets/bus3.png";
+import bus4 from "../../assets/bus4.png";
+
+import emp1 from "../../assets/emp1.jpg";
+import emp2 from "../../assets/emp2.png";
+import emp3 from "../../assets/emp3.png";
 
 import pci from "../../assets/pci-logo.png";
 import { Link } from "react-router-dom";
@@ -47,7 +60,7 @@ export const Home = () => {
             </div>
 
             <div className="img_con">
-              {/* <img src={hero} alt="hero image" /> */}
+              <img src={hero_img} alt="hero image" />
             </div>
           </div>
         </div>
@@ -123,13 +136,16 @@ export const Home = () => {
                 speed={800}
               >
                 <SwiperSlide className="img">
-                  <img src={finance_image} alt="image" />
+                  <img src={finance1} alt="image" />
                 </SwiperSlide>
                 <SwiperSlide className="img">
-                  <img src={business_image} alt="image" />
+                  <img src={finance2} alt="image" />
                 </SwiperSlide>
                 <SwiperSlide className="img">
-                  <img src={infrast_image} alt="image" />
+                  <img src={finance3} alt="image" />
+                </SwiperSlide>
+                <SwiperSlide className="img">
+                  <img src={finance4} alt="image" />
                 </SwiperSlide>
               </Swiper>
             </div>
@@ -196,13 +212,16 @@ export const Home = () => {
                 speed={800}
               >
                 <SwiperSlide className="img">
-                  <img src={finance_image} alt="image" />
+                  <img src={bus1} alt="image" />
                 </SwiperSlide>
                 <SwiperSlide className="img">
-                  <img src={business_image} alt="image" />
+                  <img src={bus2} alt="image" />
                 </SwiperSlide>
                 <SwiperSlide className="img">
-                  <img src={infrast_image} alt="image" />
+                  <img src={bus3} alt="image" />
+                </SwiperSlide>
+                <SwiperSlide className="img">
+                  <img src={bus4} alt="image" />
                 </SwiperSlide>
               </Swiper>
             </div>
@@ -256,13 +275,13 @@ export const Home = () => {
                 speed={800}
               >
                 <SwiperSlide className="img">
-                  <img src={finance_image} alt="image" />
+                  <img src={emp1} alt="image" />
                 </SwiperSlide>
                 <SwiperSlide className="img">
-                  <img src={business_image} alt="image" />
+                  <img src={emp2} alt="image" />
                 </SwiperSlide>
                 <SwiperSlide className="img">
-                  <img src={infrast_image} alt="image" />
+                  <img src={emp3} alt="image" />
                 </SwiperSlide>
               </Swiper>
             </div>

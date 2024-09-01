@@ -1,12 +1,12 @@
 import { ImCheckmark } from "react-icons/im";
 import { RiExternalLinkFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import olivia_img from "../assets/olivia.png";
+import olivia_img from "../assets/olivia-img.png";
 
 export const Product2 = () => {
   return (
     <div className="product_con olivia">
-      <div className="txt_con" data-aos="fade-left">
+      <div className="txt_con" data-aos="fade-right">
         <h3>olivia</h3>
         <div className="txt">
           <p>
@@ -73,7 +73,7 @@ export const Product2 = () => {
         </div>
       </div>
 
-      <div className="img" data-aos="fade-right">
+      <div className="img" data-aos="fade-left">
         <img src={olivia_img} alt="megaclus" />
       </div>
     </div>

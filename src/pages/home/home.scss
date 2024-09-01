@@ -5,28 +5,22 @@
   .home_section {
     width: 100%;
     height: fit-content;
-    background-image: url("../../assets/2.jpg");
-    background-size: cover;
-    background-repeat: none;
+    background: $bg_color_alt;
 
     .main_wrapper {
-      background: rgba(0, 0, 0, 0.837);
-
+      padding-top: 50px;
       .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 30px;
-        padding-top: 150px;
-        padding-bottom: 90px;
 
         .txt_con {
           width: 50%;
-          padding-top: 100px;
+          padding-top: 140px;
 
           h1 {
             font-size: 40px;
-            color: white;
 
             span {
               color: $primary_color;
@@ -34,8 +28,8 @@
           }
 
           p {
-            color: rgb(198, 198, 198);
             padding: 20px 0 30px 0;
+            font-size: 16px;
           }
 
           .btns {
@@ -46,13 +40,10 @@
             a {
               border: 2px solid transparent;
               &:first-child {
-                background: transparent;
-                color: white;
-                border-color: white;
-                border-radius: 5px;
-
                 button {
                   background: transparent;
+                  border: 2px solid $primary_color;
+                  color: $primary_color;
                 }
               }
             }
@@ -76,21 +67,37 @@
         }
 
         .img_con {
-          width: 50%;
-          display: none;
+          width: 40%;
+          height: 650px;
         }
 
         @media (max-width: 1200px) {
           .txt_con h1 {
-            font-size: 30px;
+            font-size: 35px;
+          }
+
+          .img_con {
+            height: 600px;
+          }
+        }
+
+        @media (max-width: 1024px) {
+          .img_con {
+            height: 550px;
           }
         }
 
         @media (max-width: 900px) {
-          padding-top: 110px;
+          padding-top: 170px;
+          padding-bottom: 100px;
 
           .txt_con {
             width: 90%;
+            padding-top: 0;
+          }
+
+          .img_con {
+            display: none;
           }
         }
 
@@ -132,6 +139,8 @@
       .img_con {
         width: 50%;
         height: 400px;
+        overflow: hidden;
+        border-radius: 5px;
       }
 
       .txt_con {
