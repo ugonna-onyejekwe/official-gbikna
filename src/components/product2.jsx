@@ -50,13 +50,6 @@ export const Product2 = () => {
             <span className="check_mark">
               <ImCheckmark />
             </span>
-            Checkout by crypto
-          </li>
-
-          <li>
-            <span className="check_mark">
-              <ImCheckmark />
-            </span>
             Available in over 100+ countries
           </li>
         </ul>

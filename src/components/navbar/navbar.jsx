@@ -7,15 +7,9 @@ import { useState } from "react";
 
 export const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
-  const [activateNav, setActivateNav] = useState(false);
-  const { pathname } = useLocation();
-  window.addEventListener("scroll", () => {
-    window.scrollY > 10 ? setActivateNav(true) : setActivateNav(false);
-  });
+
   return (
-    <nav
-      className={activateNav || isActive || pathname !== "/" ? "active" : ""}
-    >
+    <nav>
       <div className="container">
         <Link className="logo" to="/">
           <div>

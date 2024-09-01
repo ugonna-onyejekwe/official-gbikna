@@ -4,21 +4,9 @@ nav {
   left: 0;
   right: 0;
   z-index: 100;
-  background: transparent;
   position: fixed;
-
-  &.active {
-    background: $bg_color_alt2;
-    border-bottom: 1px solid rgb(212, 209, 209);
-    animation: animateNav 500ms ease-in-out;
-    top: 0;
-
-    @keyframes animateNav {
-      0% {
-        top: -40px;
-      }
-    }
-  }
+  background: $bg_color_alt2;
+  border-bottom: 1px solid rgb(212, 209, 209);
 
   .container {
     display: flex;

@@ -8,6 +8,7 @@ import { ContactFormValidation } from "../../components/validationSchema";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { BeatLoader } from "react-spinners";
+import { Link } from "react-router-dom";
 
 export const Contact = () => {
   const [loading, setLoading] = useState(false);
@@ -143,17 +144,17 @@ export const Contact = () => {
             <div className="socials_con">
               <h4>follow us </h4>
               <div className="con">
-                <span>
+                <Link to={"/"} target="_blank">
                   <FaXTwitter />
-                </span>
+                </Link>
 
-                <span>
+                <Link to={"/"} target="_blank">
                   <IoLogoLinkedin />
-                </span>
+                </Link>
 
-                <span>
+                <Link to={"/"} target="_blank">
                   <FaSquareFacebook />
-                </span>
+                </Link>
               </div>
             </div>
           </div>

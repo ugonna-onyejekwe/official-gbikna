@@ -1,6 +1,5 @@
 import { Product1 } from "../../components/product1";
 import { Product2 } from "../../components/product2";
-import { Product3 } from "../../components/product3";
 import { Product4 } from "../../components/product4";
 import { Product5 } from "../../components/product5";
 import "./products.scss";
@@ -29,7 +28,6 @@ export const Products = () => {
           <Product1 />
           <Product5 />
           <Product4 />
-          <Product3 />
         </div>
       </div>
     </div>

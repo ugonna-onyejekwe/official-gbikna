@@ -1,11 +1,7 @@
 import "./home.scss";
 import { ImCheckmark } from "react-icons/im";
 
-import hero_img from "../../assets/hero.png";
-
 import finance1 from "../../assets/finance1.png";
-import finance2 from "../../assets/finance2.png";
-import finance3 from "../../assets/finance3.png";
 import finance4 from "../../assets/finance4.png";
 
 import bus1 from "../../assets/bus1.png";
@@ -60,7 +56,7 @@ export const Home = () => {
             </div>
 
             <div className="img_con">
-              <img src={hero_img} alt="hero image" />
+              {/* <img src={hero_img} alt="hero image" /> */}
             </div>
           </div>
         </div>
@@ -68,6 +64,7 @@ export const Home = () => {
 
       {/* SERVICES SECTION */}
       <div className="services_wrapper">
+        {/* Your Financial Partner */}
         <section className="financial_solution_section service_con">
           <div className="container">
             <div className="txt_con" data-aos="fade-left">
@@ -88,13 +85,6 @@ export const Home = () => {
                     <ImCheckmark />
                   </span>
                   Payment Gateway
-                </li>
-
-                <li>
-                  <span className="check_mark">
-                    <ImCheckmark />
-                  </span>
-                  Crypto Checkout
                 </li>
 
                 <li>
@@ -138,12 +128,7 @@ export const Home = () => {
                 <SwiperSlide className="img">
                   <img src={finance1} alt="image" />
                 </SwiperSlide>
-                <SwiperSlide className="img">
-                  <img src={finance2} alt="image" />
-                </SwiperSlide>
-                <SwiperSlide className="img">
-                  <img src={finance3} alt="image" />
-                </SwiperSlide>
+
                 <SwiperSlide className="img">
                   <img src={finance4} alt="image" />
                 </SwiperSlide>
@@ -152,6 +137,7 @@ export const Home = () => {
           </div>
         </section>
 
+        {/*  Growing your business is our priority */}
         <section className="business_solution_section service_con">
           <div className="container">
             <div className="txt_con" data-aos="fade-right">
@@ -228,6 +214,7 @@ export const Home = () => {
           </div>
         </section>
 
+        {/* Empowering Your Enterprise */}
         <section className="infrastructure_solution_section service_con">
           <div className="container">
             <div className="txt_con" data-aos="fade-left">

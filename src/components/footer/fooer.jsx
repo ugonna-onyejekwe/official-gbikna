@@ -46,6 +46,14 @@ export const Footer = () => {
               <Link to="/" target="_blank">
                 megaclus
               </Link>
+
+              <Link to="/" target="_blank">
+                POS development
+              </Link>
+
+              <Link to="/" target="_blank">
+                Core banking Application
+              </Link>
             </div>
           </div>
 
@@ -65,17 +73,17 @@ export const Footer = () => {
             <h3>socials</h3>
 
             <div className="con2">
-              <span>
+              <Link to={"/"} target="_blank">
                 <FaInstagram />
-              </span>
+              </Link>
 
-              <span>
+              <Link to={"/"} target="_blank">
                 <FaXTwitter />
-              </span>
+              </Link>
 
-              <span>
+              <Link to={"/"} target="_blank">
                 <FaLinkedin />
-              </span>
+              </Link>
             </div>
           </div>
         </div>
