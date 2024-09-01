@@ -67,25 +67,6 @@ export const Footer = () => {
               <Link to="/contact">contact us</Link>
             </div>
           </div>
-
-          {/* box4 */}
-          <div className="box">
-            <h3>socials</h3>
-
-            <div className="con2">
-              <Link to={"/"} target="_blank">
-                <FaInstagram />
-              </Link>
-
-              <Link to={"/"} target="_blank">
-                <FaXTwitter />
-              </Link>
-
-              <Link to={"/"} target="_blank">
-                <FaLinkedin />
-              </Link>
-            </div>
-          </div>
         </div>
       </div>
 

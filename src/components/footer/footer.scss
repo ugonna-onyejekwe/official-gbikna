@@ -9,7 +9,7 @@ footer {
 
     .container {
       display: grid;
-      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      grid-template-columns: 1.5fr 1fr 1fr;
       gap: 30px;
 
       .box {
@@ -53,23 +53,6 @@ footer {
             span {
               font-size: 15px;
               padding-top: 2px;
-            }
-          }
-        }
-
-        .con2 {
-          display: flex;
-          align-items: center;
-          gap: 20px;
-
-          a {
-            color: rgb(204, 196, 196);
-            cursor: pointer;
-            transition: 0.4s ease;
-            font-size: 20px;
-
-            &:hover {
-              transform: scale(1.05);
             }
           }
         }

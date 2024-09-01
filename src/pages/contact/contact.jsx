@@ -140,23 +140,6 @@ export const Contact = () => {
               <h4>working hours</h4>
               <p>monday - friday: 8:00am - 5:30pm WAT</p>
             </div>
-
-            <div className="socials_con">
-              <h4>follow us </h4>
-              <div className="con">
-                <Link to={"/"} target="_blank">
-                  <FaXTwitter />
-                </Link>
-
-                <Link to={"/"} target="_blank">
-                  <IoLogoLinkedin />
-                </Link>
-
-                <Link to={"/"} target="_blank">
-                  <FaSquareFacebook />
-                </Link>
-              </div>
-            </div>
           </div>
 
           <div className="form_section" data-aos="fade-left">
