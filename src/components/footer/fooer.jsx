@@ -1,8 +1,8 @@
 import "./footer.scss";
 import { Link } from "react-router-dom";
 import { MdEmail } from "react-icons/md";
-import { FaInstagram, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
-import { FaLocationDot, FaXTwitter } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
@@ -40,20 +40,16 @@ export const Footer = () => {
             <h3>products</h3>
 
             <div className="con">
-              <Link to="/" target="_blank">
+              <Link to="https://megaclus.com" target="_blank">
                 olivia
               </Link>
-              <Link to="/" target="_blank">
+              <Link to="https://olivia-stores.com" target="_blank">
                 megaclus
               </Link>
 
-              <Link to="/" target="_blank">
-                POS development
-              </Link>
+              <Link to="/contact">POS development</Link>
 
-              <Link to="/" target="_blank">
-                Core banking Application
-              </Link>
+              <Link to="/contact">Core banking Application</Link>
             </div>
           </div>
 
