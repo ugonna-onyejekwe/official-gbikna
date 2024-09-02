@@ -55,7 +55,7 @@ export const Product2 = () => {
         </ul>
 
         <div className="btn">
-          <Link to="">
+          <Link to="https://olivia-stores.com" target="_blank">
             <button>
               learn more{" "}
               <span>

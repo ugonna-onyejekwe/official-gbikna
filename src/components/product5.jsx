@@ -14,7 +14,7 @@ export const Product5 = () => {
         </div>
 
         <div className="btn">
-          <Link to="">
+          <Link to="/contact">
             <button>
               learn more{" "}
               <span>

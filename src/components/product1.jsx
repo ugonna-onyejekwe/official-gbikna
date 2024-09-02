@@ -21,7 +21,7 @@ export const Product1 = () => {
         </div>
 
         <div className="btn">
-          <Link to="">
+          <Link to="https://megaclus.com" target="_blank">
             <button>
               learn more{" "}
               <span>
