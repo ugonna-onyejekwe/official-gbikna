@@ -50,7 +50,7 @@ export const Home = () => {
                 </Link>
               </div>
 
-              <div className="license">
+              <div className="license" data-aos="fade-up">
                 <img src={pci} alt="pci lpgo" />
               </div>
             </div>
